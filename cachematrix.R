@@ -3,7 +3,7 @@
 ## First, makeCacheMatrix builds a set of functions which are returned as a list
 ## to the parent environment.
 ## Second, cacheSolve calculates the inverse for the special "matrix" created by
-## makeCacheMatrix
+## makeCacheMatrix, or retrieves it from the cache if the inverse is already solved.
 
 
 ## makeCacheMatrix creates a list containing a function to 1) set the value of the matrix,
